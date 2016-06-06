@@ -21,6 +21,7 @@ select "South Slavic Latin" - Add. Now you should be able to select this layout
 from the keyboard menu bar icon (or it will be automatically selected if you
 remove other layouts).
 
+
 ## Features
 
 So far most of the keys should be in their right places, including:
@@ -30,6 +31,7 @@ So far most of the keys should be in their right places, including:
    characters such as ä, á or à
  - often used programming keys like `<`, `>`, `[`, `]`, `{` and `}`
  - we don't need to mention where ć, č, ž, š and đ are, right?
+
 
 ## Hacking
 
@@ -41,7 +43,13 @@ to edit the layout:
 
 Icon generated using: <https://iconverticons.com/online/>
 
-Feel free to improve the layout!
+Edit the .keylayout and .icns files in the root of the repo and update
+the .bundle by bumping its version number and running the update script
+which copies the files inside it.
+
+    ./update-bundle.sh
+
+Feel free to improve the layout and submit a pull request!
 
 Živjeli!
 
