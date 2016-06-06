@@ -3,10 +3,13 @@ QWERTZ South Slavic Latin
 
 The [QWERTZ South Slavic Latin][SSL] keyboard layout for OS X.
 This keyboard layout was standardized in the 1980s in Yugoslavia
-and is used in Windows PCs for Bosnian, Croatian, Serbian Latin
-and Slovene. For people who are used to this layout, switching to
-a Mac can be troublesome, so using this layout makes things like
-finding `@` a bit easier.
+and is used in Windows and Linux PCs for Bosnian, Croatian, Serbian Latin
+and Slovene. Macs have a different layout for these languages,
+which can be troublesome for people used to the PC layout.
+Using this layout makes things a bit more familiar,
+e.g. `@` is at its usual location. The layout aspires to be:
+
+![QWERTZ South Slavic Latin layout illustration](630px-KB_Slovene.svg.png)
 
 To install:
 
@@ -20,13 +23,13 @@ remove other layouts).
 
 ## Features
 
-So far I got most of the keys to be in their right places including:
+So far most of the keys should be in their right places, including:
 
  - `@` can be found at `alt` + `v`
- - often used programming keys like `<`, `>`, `[`, `]`, `{` and `}`
  - state modifiers like `alt` + `<number>`, `a` for inputing other international
    characters such as ä, á or à
- - I don't need to mention where ć, č, ž, š and đ are, right?
+ - often used programming keys like `<`, `>`, `[`, `]`, `{` and `}`
+ - we don't need to mention where ć, č, ž, š and đ are, right?
 
 ## Hacking
 
@@ -38,7 +41,7 @@ to edit the layout:
 
 Icon generated using: <https://iconverticons.com/online/>
 
-It's not a full clone yet. Feel free to improve it!
+Feel free to improve the layout!
 
 Živjeli!
 
