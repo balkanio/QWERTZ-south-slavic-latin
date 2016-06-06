@@ -32,6 +32,32 @@ So far most of the keys should be in their right places, including:
  - often used programming keys like `<`, `>`, `[`, `]`, `{` and `}`
  - we don't need to mention where ć, č, ž, š and đ are, right?
 
+### Typography
+
+We made some customisations by adding some typographic keys that were not easily
+accessible in the original PC layout. The modifiers for `z`, `u`, `i`, `o`, `p`
+keys were used to map these keys, since they were not used in the original.
+
+<table>
+
+<tr>
+    <td>em dash</td> <td>—</td> <td>`alt`+`z`</td>
+</tr>
+<tr>
+    <td>en dash</td> <td>–</td> <td>`alt`+`z`</td>
+</tr>
+<tr>
+    <td>ellipsis</td> <td>…</td> <td>`alt`+`č`</td> <td>`alt`+`;`</td>
+</tr>
+<tr>
+    <td>single quotes</td> <td>‘’</td> <td>`alt`+`đ`, `alt`+`shift`+`đ` </td> <td>`alt`+`]`, `alt`+`shift`+`]` </td>
+</tr>
+<tr>
+    <td>double quotes</td> <td>–</td> <td>`alt`+`š`, `alt`+`shift`+`š` </td> <td>`alt`+`[`, `alt`+`shift`+`[` </td>
+</tr>
+
+</table>
+
 
 ## Hacking
 
