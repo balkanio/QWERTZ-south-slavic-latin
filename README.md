@@ -44,6 +44,13 @@ are shown in this table:
 <table>
 
 <tr>
+    <th scope="col">Name</th>
+    <th scope="col">Symbol</th>
+    <th scope="col">Shortcut</th>
+    <th scope="col">Shortcut (US)</th>
+</tr>
+
+<tr>
     <td>em dash</td>
     <td>—</td>
     <td><code>alt</code>+<code>shift</code>+<code>z</code></td>
