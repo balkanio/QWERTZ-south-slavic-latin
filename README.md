@@ -11,6 +11,10 @@ e.g. `@` is at its usual location. The layout aspires to be:
 
 ![QWERTZ South Slavic Latin layout illustration](630px-KB_Slovene.svg.png)
 
+We also add some useful typographic symbols to easily accessible locations
+ – so that you can use “smart” quotes, proper apostrophes when you’re shortening
+ words, ellipses instead of three dots …
+
 To install:
 
     sudo cp -R "South Slavic Latin.bundle" "/Library/Keyboard Layouts/"
@@ -76,7 +80,7 @@ are shown in this table:
 </tr>
 <tr>
     <td>double quotes</td>
-    <td>–</td>
+    <td>“”</td>
     <td><code>alt</code>+<code>š</code>, <code>alt</code>+<code>shift</code>+<code>š</code> </td>
     <td><code>alt</code>+<code>[</code>, <code>alt</code>+<code>shift</code>+<code>[</code> </td>
 </tr>
