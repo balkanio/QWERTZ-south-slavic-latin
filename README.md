@@ -31,29 +31,47 @@ So far most of the keys should be in their right places, including:
    characters such as ä, á or à
  - often used programming keys like `<`, `>`, `[`, `]`, `{` and `}`
  - we don't need to mention where ć, č, ž, š and đ are, right?
+ - easily accessible typographically correct puntuation
 
 ### Typography
 
-We made some customisations by adding some typographic keys that were not easily
-accessible in the original PC layout. The modifiers for `z`, `u`, `i`, `o`, `p`
-keys were used to map these keys, since they were not used in the original.
+We made some customisations by adding some proper typographic punctuation
+symbols that were not easily accessible in the original PC layout to keys used
+in the US Mac keyboard layout. For a full list of proper typographic characters
+see this [cheatsheet](https://www.typewolf.com/cheatsheet). The supported rules
+are shown in this table:
 
 <table>
 
 <tr>
-    <td>em dash</td> <td>—</td> <td>`alt`+`z`</td>
+    <td>em dash</td>
+    <td>—</td>
+    <td><code>alt</code>+<code>shift</code>+<code>z</code></td>
+    <td><code>alt</code>+<code>shift</code>+<code>y</code></td>
 </tr>
 <tr>
-    <td>en dash</td> <td>–</td> <td>`alt`+`z`</td>
+    <td>en dash</td>
+    <td>–</td>
+    <td><code>alt</code>+<code>z</code></td>
+    <td><code>alt</code>+<code>y</code></td>
 </tr>
 <tr>
-    <td>ellipsis</td> <td>…</td> <td>`alt`+`č`</td> <td>`alt`+`;`</td>
+    <td>ellipsis</td>
+    <td>…</td>
+    <td><code>alt</code>+<code>č</code></td>
+    <td><code>alt</code>+<code>;</code></td>
 </tr>
 <tr>
-    <td>single quotes</td> <td>‘’</td> <td>`alt`+`đ`, `alt`+`shift`+`đ` </td> <td>`alt`+`]`, `alt`+`shift`+`]` </td>
+    <td>single quotes</td>
+    <td>‘’</td>
+    <td><code>alt</code>+<code>đ</code>, <code>alt</code>+<code>shift</code>+<code>đ</code> </td>
+    <td><code>alt</code>+<code>]</code>, <code>alt</code>+<code>shift</code>+<code>]</code> </td>
 </tr>
 <tr>
-    <td>double quotes</td> <td>–</td> <td>`alt`+`š`, `alt`+`shift`+`š` </td> <td>`alt`+`[`, `alt`+`shift`+`[` </td>
+    <td>double quotes</td>
+    <td>–</td>
+    <td><code>alt</code>+<code>š</code>, <code>alt</code>+<code>shift</code>+<code>š</code> </td>
+    <td><code>alt</code>+<code>[</code>, <code>alt</code>+<code>shift</code>+<code>[</code> </td>
 </tr>
 
 </table>

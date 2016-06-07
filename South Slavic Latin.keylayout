@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!-- 2002-03-15 Generated from KCHR, "Hrvatski" -->
-<!--Last edited by Ukelele version 3.0.2.59 on 2016-06-06 at 15:46 (GMT+2)-->
-<keyboard group="126" id="-13686" maxout="2" name="South Slavic Latin">
+<!--Last edited by Ukelele version 3.0.2.59 on 2016-06-07 at 10:48 (GMT+2)-->
+<keyboard group="126" id="-32040" maxout="2" name="South Slavic Latin">
 	<layouts>
 		<layout first="0" last="1" mapSet="ANSI" modifiers="commonModifiers"/>
 		<layout first="2" last="2" mapSet="mSet_2" modifiers="commonModifiers"/>
@@ -13,16 +13,16 @@
 			<modifier keys="anyShift caps? command"/>
 		</keyMapSelect>
 		<keyMapSelect mapIndex="1">
-			<modifier keys="anyShift caps? anyOption? command?"/>
+			<modifier keys="anyShift caps?"/>
 		</keyMapSelect>
 		<keyMapSelect mapIndex="2">
-			<modifier keys="caps command?"/>
+			<modifier keys="caps"/>
 		</keyMapSelect>
 		<keyMapSelect mapIndex="3">
 			<modifier keys="anyOption"/>
 		</keyMapSelect>
 		<keyMapSelect mapIndex="4">
-			<modifier keys="anyShift caps? anyOption command"/>
+			<modifier keys="anyShift caps? anyOption command?"/>
 		</keyMapSelect>
 		<keyMapSelect mapIndex="5">
 			<modifier keys="caps anyOption command?"/>
@@ -178,7 +178,7 @@
 			<key code="13" output="W"/>
 			<key action="E" code="14"/>
 			<key action="R" code="15"/>
-			<key code="16" output="—"/>
+			<key code="16" output="Z"/>
 			<key code="17" output="T"/>
 			<key code="18" output="!"/>
 			<key code="19" output="&#x0022;"/>
@@ -190,14 +190,14 @@
 			<key code="25" output=")"/>
 			<key code="26" output="/"/>
 			<key code="27" output="?"/>
-			<key code="28" output="°"/>
+			<key code="28" output="("/>
 			<key code="29" output="="/>
-			<key code="30" output="’"/>
+			<key code="30" output="Đ"/>
 			<key action="O" code="31"/>
 			<key action="U" code="32"/>
-			<key code="33" output="”"/>
+			<key code="33" output="Š"/>
 			<key action="I" code="34"/>
-			<key code="35" output="∏"/>
+			<key code="35" output="P"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="L"/>
 			<key code="38" output="J"/>
@@ -532,7 +532,7 @@
 			<key code="13" output="„"/>
 			<key code="14" output="‰"/>
 			<key code="15" output="“"/>
-			<key code="16" output="”"/>
+			<key code="16" output="—"/>
 			<key code="17" output="‘"/>
 			<key code="18" output="⁄"/>
 			<key code="19" output="@"/>
@@ -546,10 +546,10 @@
 			<key code="27" output="_"/>
 			<key code="28" output="°"/>
 			<key code="29" output="‚"/>
-			<key code="30" output="}"/>
+			<key code="30" output="’"/>
 			<key code="31" output="Ø"/>
 			<key code="32" output="↑"/>
-			<key code="33" output="{"/>
+			<key code="33" output="”"/>
 			<key code="34" output="É"/>
 			<key code="35" output="∏"/>
 			<key code="36" output="&#x000D;"/>
@@ -1070,7 +1070,7 @@
 			<when output="Ñ" state="4"/>
 		</action>
 		<action id="O">
-			<when output="Ø" state="none"/>
+			<when output="O" state="none"/>
 			<when output="Ó" state="1"/>
 			<when output="Ö" state="2"/>
 			<when output="Ô" state="3"/>
